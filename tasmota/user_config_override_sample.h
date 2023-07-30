@@ -103,7 +103,8 @@ Examples :
 #define USE_MQTT_AWS_IOT_LIGHT 
 #endif
 #ifdef USE_DISCOVERY 
-#undef USE_DISCOVERY #endif
+#undef USE_DISCOVERY
+#endif
 
 
 #endif  // _USER_CONFIG_OVERRIDE_H_
