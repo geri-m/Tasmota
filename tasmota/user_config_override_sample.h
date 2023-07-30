@@ -90,18 +90,24 @@ Examples :
 #ifndef USE_SCRIPT
 #define USE_SCRIPT
 #endif
+
 #ifndef USE_SML_M
 #define USE_SML_M
 #endif
+
 #ifdef USE_RULES
 #undef USE_RULES
+
 #endif
 #ifndef USE_MQTT_TLS 
 #define USE_MQTT_TLS 
-#define USE_MQTT_TLS_CA_CERT // Optional but highly recommended #endif 
+#define USE_MQTT_TLS_CA_CERT // Optional but highly recommended
+#endif
+
 #ifndef USE_MQTT_AWS_IOT_LIGHT 
 #define USE_MQTT_AWS_IOT_LIGHT 
 #endif
+
 #ifdef USE_DISCOVERY 
 #undef USE_DISCOVERY
 #endif
